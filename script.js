@@ -40,7 +40,7 @@ function heightOfBar() {
         bars[i].style.height = `calc(${data[i].amount}px * 2)`;
         console.log(bars[i]);
         tooltiptexts[i].innerHTML = `$${data[i].amount}`
-        tooltiptexts[i].style.bottom = `calc(${data[i].amount}px * 2 + 5px)`;
+        tooltiptexts[i].style.bottom = `calc(${data[i].amount}px * 2 + 0.3125rem)`;
     }
 }
 
